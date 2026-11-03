@@ -6,10 +6,11 @@
 dist
 build
 
+#Allow directories needed for training. Makes using Colab easier
 # Project
-BigGAN-PyTorch/__pycache__/
-BigGAN-PyTorch/data/
-BigGAN-PyTorch/logs/
-BigGAN-PyTorch/samples/
-BigGAN-PyTorch/weights/
-BigGAN-PyTorch/*.npz
+# BigGAN-PyTorch/__pycache__/
+# BigGAN-PyTorch/data/
+# BigGAN-PyTorch/logs/
+# BigGAN-PyTorch/samples/
+# BigGAN-PyTorch/weights/
+# BigGAN-PyTorch/*.npz
