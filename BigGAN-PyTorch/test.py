@@ -207,9 +207,9 @@ def testG_iFID(config):
     IS_mean, IS_std, FID = get_inception_metrics(sample, 
                                                  config['num_inception_images'],
                                                  num_splits=10)
-    print(FID)
+    print(f"Intra-FID for label {label}: {FID}")
     FIDs.append(FID)
-  print(np.mean(FIDs))
+  print("Average Intra-FID", np.mean(FIDs))
 
 
 def main():
