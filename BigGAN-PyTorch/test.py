@@ -121,7 +121,7 @@ def testD(config):
   LR = LogisticRegression()
   LR.fit(train_data, train_label)
   acc = LR.score(test_data, test_label)
-  print(acc)
+  print("Accuracy:", acc)
 
 def testG_iFID(config):
   # Prepare state dict, which holds things like epoch # and itr #
